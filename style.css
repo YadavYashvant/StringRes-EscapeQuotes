@@ -15,14 +15,14 @@
   height: fit-content;
 }
 
-button{
+.button{
   font-family: 'Mooli', sans-serif!important;
   padding: 20px;
   background-color: black;
-  color: white!important;
   border: none;
   border-radius: 10px;
   margin: 50px;
+  width: 50%;
   cursor: pointer;
   font-weight: bold!important;
 }
@@ -50,6 +50,7 @@ button{
   font-weight: bold;
   width: 100%;
   border: none;
+  background: transparent;
 }
 
 #input:focus{
@@ -62,6 +63,7 @@ button{
   font-weight: bold;
   width: 100%;
   border: none;
+  background: transparent;
 }
 
 #output:focus{
@@ -71,6 +73,30 @@ button{
 label{
   font-family: 'Mooli', sans-serif;
   font-size: 8sp;
+  font-weight:lighter;
+  color: rgb(8, 163, 21);
+
+}
+
+#input-label{
+  margin-left: 30px;
+}
+
+button{
+  font-family: 'Mooli', sans-serif;
+  font-size: 30sp;
   font-weight: bold;
-  color: rgb(7, 212, 86);
+  color: white!important;
+  background: transparent;
+  border: none;
+  align-self: center;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover{
+  background-color: rgb(7, 117, 49);
+  transition: all ease-in-out .2s;
+  scale: 1.1;
 }
